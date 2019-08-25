@@ -1,5 +1,9 @@
 Credit to https://www.youtube.com/watch?v=ZGOaCxX8HIU. Had a lot of fun building it.
 
+
+The game is deployed on https://qaws01395.github.io/react-tetris/
+
+
 ![screenshot](./src/img/screenshot.png "Tetris Game Screenshot")
 
 ### Known issue
