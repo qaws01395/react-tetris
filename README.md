@@ -8,8 +8,7 @@ The game is deployed on https://qaws01395.github.io/react-tetris/
 
 ### Known issue
 I'm new to React and am learning through practice. Hopefully I could sovle these bugs soon. Feel free to help if you can fix the bug. 
-1. There is a bug where you hit space, the block push to the bottom and disappear. I have no idea why this happen. 
-2. When the new block is generated, it overlays the blocks that are on the higher location.
+1. When the new block is generated, it overlays the blocks that are on the higher location.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

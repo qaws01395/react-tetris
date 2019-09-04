@@ -88,17 +88,18 @@ const Tetris = () => {
     drop();
   }
 
-  const move = ({ keyCode }) => {
+  const move = (e) => {
     if (!gameOver) {
-      if (keyCode === 37) { // left
+      if (e.keyCode === 37) { // left
         movePlayer(-1);
-      } else if (keyCode === 39) { // right
+      } else if (e.keyCode === 39) { // right
         movePlayer(1);
-      } else if (keyCode === 40) { // down
+      } else if (e.keyCode === 40) { // down
         dropPlayer();
-      } else if (keyCode === 38) { // up
+      } else if (e.keyCode === 38) { // up
         playerRotate(stage, 1);
-      } else if (keyCode === 32 ) { // white space
+      } else if (e.keyCode === 32 ) { // white space
+        e.preventDefault();
         pushToBottom();
       }
     }
